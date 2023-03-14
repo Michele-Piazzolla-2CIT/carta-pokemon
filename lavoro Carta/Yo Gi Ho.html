@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CartePokemon</title>
 
     <style>
         img {
@@ -19,9 +19,11 @@
     <div id="tavolo"></div>
 
     <script>
-        carte = ["fil front.jpg", "CP5.png", "CP2.png","CP3.png","CP4.png","CP6.png","CP7.png","CP8.png","CP9.png","ErMike.jpg"]
+        let NcarteGirate = 0;
+        let PrimaCartaGirata = null
+        let carte = ["fil front.jpg","fil front.jpg", "CP5.png","CP5.png", "CP2.png","CP2.png","CP3.png","CP3.png", "CP4.png","CP4.png", "CP6.png","CP6.png", "CP7.png","CP7.png", "CP8.png","CP8.png", "CP9.png","CP9.png", "ErMike.jpg", "ErMike.jpg", ]
 
-        tavolo = document.querySelector('#tavolo')
+        let tavolo = document.querySelector('#tavolo')
 
         carte.forEach(element => {
             tavolo.innerHTML += '<img id="'+element+'" src="pokemon-card-back.png" onclick="gira(this)" />'
@@ -29,12 +31,31 @@
         });
 
         function gira(carta) {
-            console.log('GIRA')
-            console.log(carta.src)
-            if (carta.src.includes("back"))
-                carta.src = carta.id
-            else
+           NcarteGirate++
+           carta.src = carta.id
+           console.log(carta.src)
+           if(NcarteGirate == 1)
+            PrimaCartaGirata = carta
+            else {
+                NcarteGirate = 0
+                if{
+                    (carta.src == PrimaCartaGirata.src)
+                    console.log(GG BRO)
+
+            else {
+                console.log ('NOOB, smetti di farti le canne magari avrai più memoria')
                 carta.src = "pokemon-card-back.png"
+                PrimaCartaGirata.src = "Pokemon-card-back.png"
+
+                }
+            }
+           
+           
+           
+           
+           
+           
+           //carta.src = "pokemon-card-back.png"
         }
     </script>
 </body>
