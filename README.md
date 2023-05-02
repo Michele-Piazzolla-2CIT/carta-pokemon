@@ -5,8 +5,8 @@ questo gioco è gia disponibile [clicca qui per iniziare a giocare](https://mich
 ### introduzione
 questo è un gioco memory con le carte pokemon, **ci sono un totale di 20 carte e 10 coppie**, _vinci scovando tutte le coppie._
 
-### Regole
-per vincere bisogna individuare tutte le 10 coppie e scoprirle sul bancone, per individuare le carde bisogna iniziando a scoprirle un paio alla volta finchè non si iniziano a intravedere le coppie, una volta memorizzata la posizione delle carte si scoprono le carte ugali ricordando la loro esatta posizione, e così si otterrà un punto. ***si vince ottenendo 10 punti (individuando tutte le carte)
+### come giocare
+per vincere bisogna individuare tutte le 10 coppie e scoprirle sul bancone, per individuare le carde bisogna iniziando a scoprirle un paio alla volta finchè non si iniziano a intravedere le coppie, una volta memorizzata la posizione delle carte si scoprono le carte ugali ricordando la loro esatta posizione, e così si otterrà un punto. ***si vince ottenendo 10 punti (individuando tutte le carte)***
 
 ### Altro
 IL DOPPIO DEL DIVERTIMENTO!
